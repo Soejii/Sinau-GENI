@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 // JSON is indeed a String Type
 
-app.post("/jajan" ,(request, response) => {
+app.post("/usia" ,(request, response) => {
     // storing the request data 
 
     let data =  request.body.usia 
